@@ -24,7 +24,7 @@ jobs:
       - name: Run Python test script
         run: |
           echo "Running test script at $(date)"
-          python test_script.py || echo "Test failed"
+          python test.py || echo "Test failed"
 
       - name: Log result
         run: echo " Python test job completed at"
